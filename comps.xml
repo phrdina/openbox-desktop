@@ -1,0 +1,36 @@
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <environment>
+    <id>openbox-desktop-environment</id>
+    <name>Openbox Desktop Environment</name>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>fonts</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>openbox-desktop</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+  </environment>
+  <group>
+   <id>openbox-desktop</id>
+   <display_order>1</display_order>
+   <name>Openbox Desktop</name>
+   <description></description>
+    <packagelist>
+      <packagereq type="mandatory">mate-notification-daemon</packagereq>
+      <packagereq type="mandatory">network-manager-applet</packagereq>
+      <packagereq type="mandatory">openbox</packagereq>
+      <packagereq type="mandatory">openbox-desktop</packagereq>
+      <packagereq type="mandatory">openbox-desktop-default-autostart</packagereq>
+      <packagereq type="mandatory">openbox-desktop-slim-fedora-simple</packagereq>
+      <packagereq type="mandatory">pasystray</packagereq>
+      <packagereq type="mandatory">pavucontrol</packagereq>
+      <packagereq type="mandatory">slim</packagereq>
+      <packagereq type="mandatory">tint2</packagereq>
+      <packagereq type="mandatory">xbacklight</packagereq>
+      <packagereq type="default">openbox-desktop-color-prompt</packagereq>
+    </packagelist>
+  </group>
+</comps>
